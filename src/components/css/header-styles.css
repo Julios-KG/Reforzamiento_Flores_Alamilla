@@ -1,0 +1,35 @@
+.top-page {
+    background-color: #474747;
+}
+
+.top-button {
+    background-color: rgba(249, 249, 247, 0.181);
+}
+
+.sticky-header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; /* O el color de fondo que prefieras */
+}
+
+.top-page {
+    background-color: #333; /* Color de fondo para la parte superior del header */
+}
+
+.scroll-container {
+    max-height: 500px; /* Ajusta esto según el espacio disponible en tu diseño */
+    overflow-y: auto;
+  }
+  
+
+/* Ajustes de responsividad */
+@media (max-width: 768px) {
+    .md\\:hidden {
+        display: flex !important;
+    }
+    .md\\:flex {
+        display: none !important;
+    }
+}
